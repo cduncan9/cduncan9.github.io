@@ -33,6 +33,8 @@ The mechanical drawing for the top piece can be found [here](https://github.com/
 
 The bottom piece of the light box is where most of the features for the user needs are kept. The bottom piece has features for the storage of the battery, mounting of the PCB, and connecting the bottom and top pieces together.
 
+Around the rim of the lightbox are four 0.1 inch tall protrusions. These protrusions couple with the inside of the rim of the top piece to guide the pieces together during assembly. 
+
 
 
 The mechanical drawing for the bottom piece can be found [here](https://github.com/cduncan9/cduncan9.github.io/blob/main/Bottom%20Piece%20Drawing%20(2).pdf).
@@ -45,5 +47,18 @@ The mechanical drawing for the light box assembly can be found [here](https://gi
 ### Electrical
 
 ## Testing
+
+#### Switch to turn device on/off
+#### Rotary knob to linearly modulate the brightness of the light
+#### Switch to toggle from a continuous to a 2 Hz blinking mode (50% duty cycle)
+#### Use a 9V battery
+#### Battery must be easily replaceable
+#### Battery life of at least 4 hours
+#### Single-sided printed circuit board
+#### Weigh less than half a pound
+#### All dimensions must be less than 3 inches
+#### Enclosure must be sealed
+#### It must cost less than $20 to replicate the unit
+#### It must be able to survive a 3 ft drop test
 
 ## Future Improvements
