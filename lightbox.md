@@ -23,13 +23,15 @@ This project was meant to serve as a final skills assessment for BME 473. All of
 
 The enclosing of the light box was designed in Onshape. Throughout the entire design process, specific decisions were made to successfully meet all of the user needs. The light box enclosing was designed in three parts consisting of a top piece, bottom piece, and battery cover. This three piece design was meant to improve the ease of access to the internal components of the lightbox for quick battery replacement and electrical troubleshooting. 
 
+The top piece of this box was designed to have openings for the light and the switch hardware to protrude from. On the top face of the box there are three holes that are 0.3 inches in diameter. These holes enable the user to see the light from the LED and to control the sttings of the light through the switch and potentiometer knob. 
 The mechanical drawing for the top piece can be found [here](https://github.com/cduncan9/cduncan9.github.io/blob/main/Top%20Piece%20Drawing%20(1).pdf).
 
 The mechanical drawing for the bottom piece can be found [here](https://github.com/cduncan9/cduncan9.github.io/blob/main/Bottom%20Piece%20Drawing%20(2).pdf).
 
 The mechanical drawing for the battery cover can be found [here](https://github.com/cduncan9/cduncan9.github.io/blob/main/Battery%20Cover%20Drawing%20(2).pdf).
 
-The mechanical drawing for the light box assembly can be found here.
+The overall assembly for the light box was designed to be sturdy and ergonomic. A 0.3 inch fillet was applied to all edges of the lightbox to reduce the stress on the edges during the drop test. The lightbox also has a uniform wall thickness of 0.2 inches to frotect its internals during a fall. 
+The mechanical drawing for the light box assembly can be found [here](https://github.com/cduncan9/cduncan9.github.io/blob/main/assembly-drawing.pdf).
 
 ### Electrical
 
