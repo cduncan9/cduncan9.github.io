@@ -23,6 +23,14 @@ This project was meant to serve as a final skills assessment for BME 473. All of
 
 The enclosing of the light box was designed in Onshape. Throughout the entire design process, specific decisions were made to successfully meet all of the user needs. The light box enclosing was designed in three parts consisting of a top piece, bottom piece, and battery cover. This three piece design was meant to improve the ease of access to the internal components of the lightbox for quick battery replacement and electrical troubleshooting. 
 
+The mechanical drawing for the top piece can be found here.
+
+The mechanical drawing for the bottom piece can be found here.
+
+The mechanical drawing for the battery cover can be found here.
+
+The mechanical drawing for the light box assembly can be found here.
+
 ### Electrical
 
 ## Testing
