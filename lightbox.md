@@ -26,7 +26,7 @@ The enclosing of the light box was designed in Onshape. Throughout the entire de
 
 ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/top-piece-image.jpg?raw=true)
 
-The top piece of this box was designed to have openings for the light and the switch hardware to protrude from. On the top face of the box there are three holes that are 0.3 inches in diameter. These holes enable the user to see the light from the LED and to control the sttings of the light through the switch and potentiometer knob. 
+The top piece of this box was designed to have openings for the light and the switch hardware to protrude from. On the top face of the box there are three holes that are 0.3 inches in diameter. These holes enable the user to see the light from the LED and to control the settings of the light through the switch and potentiometer knob. 
 
 The top piece also has 4 holes at the corners where M2 screws are inserted to screw together the top and bottom pieces.
 
@@ -59,6 +59,19 @@ The mechanical drawing for the light box assembly can be found [here](https://gi
 
 ### Electrical
 
+![](https://github.com/cduncan9/cduncan9.github.io/blob/main/finalcircuit.jpg?raw=true)
+
+
+## Assembly
+
+| ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/bottom-piece-image.jpg?raw=true) | ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/assembled%20bottom%20piece.jpg?raw=true) |
+|:---:|:---:|
+
+| ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/assembly.jpg?raw=true) | ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/assembled%20box%20image.jpg?raw=true) |
+|:---:|:---:|
+
+| ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/batt.jpg?raw=true) | ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/bottom-with-battery.jpg?raw=true) |
+|:---:|:---:|
 
 ## Testing
 
