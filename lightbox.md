@@ -1,4 +1,5 @@
 # Light Box
+![](https://github.com/cduncan9/cduncan9.github.io/blob/main/finalproduct.jpg?raw=true)
 ## User Needs
 This project was meant to serve as a final skills assessment for BME 473. All of the skills learned throughout the class would be used to contruct a final design that met many user design needs. These needs were kept in mind throughout the enire design process and final product assembly. The user needs as specified in the rubric for this project are listed below:
 
@@ -28,6 +29,7 @@ The top piece of this box was designed to have openings for the light and the sw
 The top piece also has 4 holes at the corners where M2 screws are inserted to screw together the top and bottom pieces.
 
 On the bottom of the top piece there is a 0.1 inch inner ridge where extrusions of the bottom piece will fit to help align the pieces.
+
 
 The mechanical drawing for the top piece can be found [here](https://github.com/cduncan9/cduncan9.github.io/blob/main/Top%20Piece%20Drawing%20(1).pdf).
 
