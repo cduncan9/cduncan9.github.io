@@ -25,7 +25,7 @@ The enclosing of the light box was designed in Onshape. Throughout the entire de
 
 The top piece of this box was designed to have openings for the light and the switch hardware to protrude from. On the top face of the box there are three holes that are 0.3 inches in diameter. These holes enable the user to see the light from the LED and to control the sttings of the light through the switch and potentiometer knob. 
 
-The top piece also has 4 holes at the corners where SCREW SIZE screws are inserted to screw together the top and bottom pieces.
+The top piece also has 4 holes at the corners where M2 screws are inserted to screw together the top and bottom pieces.
 
 On the bottom of the top piece there is a 0.1 inch inner ridge where extrusions of the bottom piece will fit to help align the pieces.
 
@@ -46,19 +46,32 @@ The mechanical drawing for the light box assembly can be found [here](https://gi
 
 ### Electrical
 
+
 ## Testing
 
 #### Switch to turn device on/off
 #### Rotary knob to linearly modulate the brightness of the light
 #### Switch to toggle from a continuous to a 2 Hz blinking mode (50% duty cycle)
+
 #### Use a 9V battery
 #### Battery must be easily replaceable
 #### Battery life of at least 4 hours
-#### Single-sided printed circuit board
+To calculate the run time of my circuit, I am going to divide the amphours of my battery by the current being drawn by the blinking and constant modes at the brightest and darkest levels of the potentiometer. For this test, I will be using a battery amphour of 
+
+| Mode | Current Draw | Calculated Battery Life |
+|------|------|------|
+|Blinking with Brightest Light| 0.2 mA||
+|Blinking with Darkest Light|0 mA (smaller than meter can detect)||
+|Constant with Brightest Light|25 mA||
+|Constant with Darkest Light|0.1 mA||
 #### Weigh less than half a pound
+The final weight of the box is 171.82 grams which is 0.38 lbs. I was able to make this box both light and sturdy by minimizing the size of the elecrical components. A smaller PCB and smaller switch reduced the size of the box, significantly reducing the weight.
 #### All dimensions must be less than 3 inches
+
 #### Enclosure must be sealed
 #### It must cost less than $20 to replicate the unit
+
 #### It must be able to survive a 3 ft drop test
+This test is still to be performed by Dr. Palmeri.
 
 ## Future Improvements
