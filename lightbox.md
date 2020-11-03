@@ -122,7 +122,7 @@ Once I had tested my circuit with a SPICE simulation and by breadboarding it, I 
 
 ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/MicrosoftTeams-image.png?raw=true)
 
-Once this was done I began the process of soldering my parts to the PCB. I had to make several fixes in the process of soldering my board. When one of the lines of copper came up I had to solder on a wire so that the current line was not cut. A picture of this fix is shown below:
+Once this was done I began the process of soldering my parts to the PCB. I had to make several fixes in the process of soldering my board. I had planned on using a 2.35 uFarad capacitor in my design but there were none of those in lab. Instead I ended up using a 2.2 uFarad capacitor. When one of the lines of copper came up I had to solder on a wire so that the current line was not cut. A picture of this fix is shown below:
 
 ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/IMG_9584.jpg?raw=true)
 
@@ -184,6 +184,14 @@ I would compare both the current and the voltage output of the phototransistor c
 For this user need I placed a switch at the beginning of the circuit that would direct the current either to the 555 timer or to a direct path to the potentiometer. A video of this working can be seen [here](https://youtu.be/Bkre8Up9MX0).
 
 #### Two Hz blinking mode with 50% duty cycle `Failed`
+
+As I discussed above, the frequency of my blinking light is wrong. When breadboarding my circuit I mixed up the capacitor and resistor values I changed the capacitance for C1 to be 2.35 uFarads. This was not a capacitance in the lab so I used a capacitance of 2.2 uFarads. bacause of this, I got a frequency of 1.33 Hz, which I found by filming a slow motion video which can be seen [here](https://youtu.be/kksQaKh8hng). 
+
+The math to check to see if this checks out theoretically is shown below:
+
+![](https://github.com/cduncan9/cduncan9.github.io/blob/main/mathcalc.jpg?raw=true)
+
+From this you can see that the frequency still passes the marginal value but fails the ideal value.
 
 #### Use a 9V battery `Passed`
 
