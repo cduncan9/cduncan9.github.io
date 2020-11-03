@@ -159,9 +159,25 @@ It is important to note here that I was unable to perform some of the tests that
 
 #### Switch to turn device on/off `Passed`
 
-For this user need I 
+For this user need I created marginal and ideal values for the current flow out of the battery when the curcuit is switched on and off. These values can be seen in the table below:
+
+|  | Marginal | Ideal |
+|:------:|:------:|:------:|
+| On |0 mA < current < 25 mA|current > 25 mA|
+| Off |0 mA < current < 1 mA|0 mA|
+
+I hoped to be able to test these values using a multimeter but was unable to. Instead I am forces to go off of a visual test, and by switching the circuit on and off I can confirm that this test passes.
 
 #### Rotary knob to linearly modulate the brightness of the light `Passed`
+
+For this user need I devised a test that would involve comparing the brightness of the LED in three different modes of the potentiometer. I planned on building a test circuit that used a phototransistor. I would then compare the output of this circuit when the potentiometer was at a low, medium, and high setting. For the marginal and ideal values of the low, medium, and high brightnesses I created the following table:
+
+||Low|Medium|High|
+|:------:|:------:|:------:|:------|
+|Marginal| low| 1.5 * low |2 * low| 
+|Ideal| low| 2 * low | 3 * low |
+
+I would compare both the current and the voltage output of the phototransistor circuit, plot the values, and check if it increases linearly. I was unfortunately unable to do this so I had to test this user need with a visual eye test which can be seen in the video linked [here](https://youtu.be/Kl5_oRVEmec). As you can see, the brightness of the LED increases linearly with the turning of the potentiometer. 
 
 #### Switch to toggle from a continuous to a linking mode `Passed`
 
