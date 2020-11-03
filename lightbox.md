@@ -1,7 +1,9 @@
 # Light Box
+
 | ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/finalproduct.jpg?raw=true) |
 |:------:|
 | Final working light box|
+
 ## User Needs
 This project was meant to serve as a final skills assessment for Medical Device Design I, the first class in a two semester design clourse taught by Dr. Mark Palmeri meant to introduce students to all of the aspects of the medical device industry. All of the skills learned throughout the class would be used to contruct a final design that met many user design needs. These needs were kept in mind throughout the enire design process and final product assembly. The user needs as specified in the rubric for this project are listed below:
 
@@ -111,13 +113,13 @@ Adding the test pins introduced a lot of air wires to the PCB and it was difficu
 ## Assembly and Modifications
 
 | ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/bottom-piece-image.jpg?raw=true) | ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/assembled%20bottom%20piece.jpg?raw=true) |
-|:---:|:---:|
+|:------:|:------:|
 
 | ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/assembly.jpg?raw=true) | ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/assembled%20box%20image.jpg?raw=true) |
-|:---:|:---:|
+|:------:|:------:|
 
 | ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/batt.jpg?raw=true) | ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/bottom-with-battery.jpg?raw=true) |
-|:---:|:---:|
+|:------:|:------:|
 
 ## Testing
 
