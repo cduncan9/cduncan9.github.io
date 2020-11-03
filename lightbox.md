@@ -116,6 +116,22 @@ Adding the test pins introduced a lot of air wires to the PCB and it was difficu
 
 ## Assembly and Modifications
 
+Once I had tested my circuit with a SPICE simulation and by breadboarding it, I printed a single sided PCB so that I could begin to sauter the board. In designing the circuit, I left 5 test pins that would help with debugging the circuit. These test pins when printed however were too large and overlapped, so I had to cut the traces to the test pins as shown below: 
+
+![](https://github.com/cduncan9/cduncan9.github.io/blob/main/MicrosoftTeams-image.png?raw=true)
+
+Once this was done I began the process of soldering my parts to the PCB. I had to make several fixes in the process of soldering my board. When one of the lines of copper came up I had to solder on a wire so that the current line was not cut. A picture of this fix is shown below:
+
+![](https://github.com/cduncan9/cduncan9.github.io/blob/main/IMG_9584.jpg?raw=true)
+
+As seen in the image above, I also made the mistake of not using a mirror image of the 555 timer for my board. Because of this I had to solder the 555 timer on the same side of the copper lines.
+
+After soldering the board I moved onto printing the lightbox enclosure. To print the enclosure I used soluble supports, so I had to soak the prints overnight in a water bath to clear the supports.
+
+
+
+
+
 | ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/bottom-piece-image.jpg?raw=true) | ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/assembled%20bottom%20piece.jpg?raw=true) |
 |:------:|:------:|
 
