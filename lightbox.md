@@ -128,12 +128,13 @@ As seen in the image above, I also made the mistake of not using a mirror image 
 
 After soldering the board I moved onto printing the lightbox enclosure. To print the enclosure I used soluble supports, so I had to soak the prints overnight in a water bath to clear the supports.
 
-
-
+For the holes for the PCB and the connection to the top piece I added threaded heat inserts so that the screws could be rescrewed without worrying about messing up the plastic of the box. To be able to add the heat inserts, I had to make the holes larger, which I did with a power drill. I added the heated inserts using a soldering iron. Below you can see a comparison of the 3D CAD design of the bottom piece with the final physical model.
 
 
 | ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/bottom-piece-image.jpg?raw=true) | ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/assembled%20bottom%20piece.jpg?raw=true) |
 |:------:|:------:|
+| 3D CAD Design | Final Model |
+
 
 | ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/assembly.jpg?raw=true) | ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/assembled%20box%20image.jpg?raw=true) |
 |:------:|:------:|
