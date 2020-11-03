@@ -80,10 +80,33 @@ The final circuit schematic is shown below:
 |:------:|
 | Final circuit schematic |
 
+This circuit has two settings, a continuous mode and a 2 Hz blinking mode with a 50% duty cycle. The mode of the LED is dictated by a switch at the very beginning of the circuit. When the circuit is in continuous mode the current travels directly to the potentiometer. When the circuit is in blinking mode it travels to a 555 timer which controls the blinking. The values of R1, R2 and C1 for the 555 timer were calculated to be 1 kOhm, 301 kOhm, and 1.2 uFarads respectively. The math to check the values is shown below:
 
+![](https://github.com/cduncan9/cduncan9.github.io/blob/main/theoreticalcalcs.jpg?raw=true)
 
+The output of the 555 timer then goes through a transistor to amplify the current produced by the timer before it reaches the potentiometer.
 
+The potentiometer used in my circuit design has two purposes. Two pins on the potentiometer can be used to switch the circuit on/off by breaking the connection when the potentiometer knob is turned off. The potentiometer is also used to linearly modulate the brightness of the LED. the output of the 555 timer/continuous mode is connected to one pin of the potentiometer, and another pin of the potentiometer is then connected to a resistor which is then connected to the LED. When the potentiometer knob is turned, the resistor value within the potentiometer changes, and a larger resistance will lead to a dimmer light.
 
+There are two capacitors in the circuit, one after the battery and one after the voltage regulator, which are meant to prevent the negative effects of fluctuations from the power source. There are also 5 test pins in the circuit which are meant to ease the debugging of the PCB if problems happen during assembly.
+
+After designing the circuit, I ran a SPICE simulation on the 555 timer to check to see if the frequency and duty cycle of the timer were correct. I had to simplify the circuit to get the SPICE simulator working, so I used the following 555 timer circuit:
+
+![](https://github.com/cduncan9/cduncan9.github.io/blob/main/spice-circuit.jpg?raw=true)
+
+This circuit produced the following SPICE simulation:
+
+![](https://github.com/cduncan9/cduncan9.github.io/blob/main/SPICE.jpg?raw=true)
+
+As seen above, the rising and falling periods of the output are both around 0.25s each, producing a 50% duty cycle and a frequency of 2 Hz.
+
+Once the circuit was completed I created a single-sided PCB layout in EAGLE. The final layout is shown below:
+
+![](https://github.com/cduncan9/cduncan9.github.io/blob/main/final-pcb.jpg?raw=true)
+
+The final dimensions of the PCB are 2.4 inches by 1.6 inches. The holes of the PCB are large enough for M2 screws, and were placed to align with the holes of the PCB mount in the bottom piece of the light box. 
+
+Adding the test pins introduced a lot of air wires to the PCB and it was difficult to connect them all with a single sided PCB. I was able to connect all but one of the air wires without havaing to use vias, the one air wire that I connected with several vias I ended up not soldering which I will discuss later in the assembly section.
 
 ## Assembly and Modifications
 
