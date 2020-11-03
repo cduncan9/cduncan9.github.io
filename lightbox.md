@@ -240,7 +240,13 @@ As seen from the image above, the gap between the top and bottom pieces is aroun
 
 #### It must cost less than $20 to replicate the unit `Passed`
 
-For this test, I said that it would be ideal for the replication of the box to be less than $15 and the marginal cost would be $20. 
+For this test, I said that it would be ideal for the replication of the box to be less than $15 and the marginal cost would be $20. For this test I used the following costs that I found online:
+
+|Part|Cost|Count|
+|:------:|:------:|:------:|
+|[Mini Toggle Switch](https://www.allelectronics.com/item/mts-4/spdt-on-on-mini-toggle-switch/1.html)| $1.25| 1 |
+|[Potentiometer](https://www.adafruit.com/product/3393)| $1.75| 1 |
+|[555 Timer](https://www.amazon.com/MCIGICM-ne555-Timer-Pulse-Generator/dp/B077BRB6W6/ref=sr_1_3?dchild=1&keywords=555+Timer+IC&qid=1604446628&sr=8-3)||1|
 
 #### It must be able to survive a 3 ft drop test `TBD`
 This test is still to be performed by Dr. Palmeri.
