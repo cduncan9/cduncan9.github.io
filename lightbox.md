@@ -212,13 +212,35 @@ To calculate the run time of my circuit, I am going to divide the amphours of my
 |Constant with Darkest Light|0.1 mA||
 
 #### Weigh less than half a pound `Passed`
-The final weight of the box is 171.82 grams which is 0.38 lbs. I was able to make this box both light and sturdy by minimizing the size of the elecrical components. A smaller PCB and smaller switch reduced the size of the box, significantly reducing the weight.
+
+For this user need I set the marginal weight to be 0.5 lbs and the ideal weight to be less than 0.4 lbs. The final weight of the box is 171.82 grams which is 0.38 lbs. I was able to make this box both light and sturdy by minimizing the size of the elecrical components. A smaller PCB and smaller switch reduced the size of the box, significantly reducing the weight.
 
 #### All dimensions must be less than 3 inches `Passed`
 
+|Length|Width|Height|
+|:------:|:------:|:------:|
+|![](https://github.com/cduncan9/cduncan9.github.io/blob/main/length.jpg?raw=true)|![](https://github.com/cduncan9/cduncan9.github.io/blob/main/width.jpg?raw=true)|![](https://github.com/cduncan9/cduncan9.github.io/blob/main/height.jpg?raw=true)|
+|About 2.25 inches|About 3 inches|About 2.8 inches|
+|Passes ideal value| Passes marginal value|Passes marginal value|
+
+
 #### Enclosure must be sealed `Passed`
 
+For this user need I said that a gap less than 1 mm would be ideal and a gap less than 3 mm would be marginally good.
+
+The battery cover is fully sealed to the bottom piece of the box: 
+
+![](https://github.com/cduncan9/cduncan9.github.io/blob/main/IMG_9591.jpg?raw=true)
+
+The heated inserts for top piece bottom piece connection however stick out slightly and the top and bottom piece are not completely sealed:
+
+![](https://github.com/cduncan9/cduncan9.github.io/blob/main/height.jpg?raw=true)
+
+As seen from the image above, the gap between the top and bottom pieces is around 3/32 inches or 2.38 mm. This means that the box passes the marginal values for being sealed but not the ideal values.
+
 #### It must cost less than $20 to replicate the unit `Passed`
+
+For this test, I said that it would be ideal for the replication of the box to be less than $15 and the marginal cost would be $20. 
 
 #### It must be able to survive a 3 ft drop test `TBD`
 This test is still to be performed by Dr. Palmeri.
