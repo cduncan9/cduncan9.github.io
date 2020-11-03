@@ -124,7 +124,7 @@ Once this was done I began the process of soldering my parts to the PCB. I had t
 
 ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/IMG_9584.jpg?raw=true)
 
-As seen in the image above, I also made the mistake of not using a mirror image of the 555 timer for my board. Because of this I had to solder the 555 timer on the same side of the copper lines.
+I also ened up replacing the 1kOhm resistor that is connected in series in the continuous mode with a wire as the resistor was unnecessary. As seen in the image above, I also made the mistake of not using a mirror image of the 555 timer for my board. Because of this I had to solder the 555 timer on the same side of the copper lines.
 
 After soldering the board I moved onto printing the lightbox enclosure. To print the enclosure I used soluble supports, so I had to soak the prints overnight in a water bath to clear the supports.
 
@@ -135,14 +135,17 @@ For the holes for the PCB and the connection to the top piece I added threaded h
 |:------:|:------:|
 | 3D CAD Design | Final Model |
 
-
+Once I had the heated inserts set in the bottom piece of the enclosure I began the assembly of the PCB in the lightbox. When screwing in the PCB, I found that the heated inserts must have changed the alighnment of the holes, and I was only able to screw in two of the PCB holes. During the process of mounting the PCB some of the wires connected to the LED and the potentiometer came loose. To fix this problem from happening again I soldered female header pins to the board so that now the wires connected to the potentiometer and the LED are detachable. 
 
 ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/IMG_9587.jpg?raw=true)
 
+I then put the LED and switches through the holes in the top piece of the light box. For the LED I used a rubber sleve to seal the hole and for the toggle switch I used a nut to secure the switch to the top piece. With a small amount of force I closed the light box and screwed in the M2 screws.
 
 | ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/assembly.jpg?raw=true) | ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/assembled%20box%20image.jpg?raw=true) |
 |:------:|:------:|
 | 3D CAD Design | Final Model |
+
+The 9V battery that powers the light box snugly fits inside the battery compartment.
 
 | ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/batt.jpg?raw=true) | ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/bottom-with-battery.jpg?raw=true) |
 |:------:|:------:|
