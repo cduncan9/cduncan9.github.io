@@ -153,6 +153,8 @@ The 9V battery that powers the light box snugly fits inside the battery compartm
 
 ## Testing
 
+In the design of my lightbox and in the teste performed I 
+
 #### Switch to turn device on/off
 #### Rotary knob to linearly modulate the brightness of the light
 #### Switch to toggle from a continuous to a 2 Hz blinking mode (50% duty cycle)
