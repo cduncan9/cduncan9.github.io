@@ -20,6 +20,8 @@ This project was meant to serve as a final skills assessment for Medical Device 
 * It must cost less than $20 to replicate the unit
 * It must be able to survive a 3 ft drop test
 
+In order to meet all of these user requirements, I created a spreadsheet to keep track of the marginal and ideal specifications that I would follow in the design process. The spreadsheet can be downloaded [here](https://github.com/cduncan9/cduncan9.github.io/blob/main/MedicalDeviceDevelopmentDuncan.xlsx).
+
 ## Design Process
 
 ### Mechanical
@@ -151,9 +153,7 @@ The 9V battery that powers the light box snugly fits inside the battery compartm
 |:------:|:------:|
 | 3D CAD Design | Final Model |
 
-## Testing
-
-In the design of my lightbox and in the teste performed I 
+## Testing 
 
 #### Switch to turn device on/off
 #### Rotary knob to linearly modulate the brightness of the light
