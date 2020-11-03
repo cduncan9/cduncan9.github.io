@@ -155,13 +155,23 @@ The 9V battery that powers the light box snugly fits inside the battery compartm
 
 ## Testing 
 
-#### Switch to turn device on/off
-#### Rotary knob to linearly modulate the brightness of the light
-#### Switch to toggle from a continuous to a 2 Hz blinking mode (50% duty cycle)
+It is important to note here that I was unable to perform some of the tests that I devised due to problems with timing and getting into lab. Nevertheless I do have some videos which are meant to represent the light box's functionality where I was unable to perform the test.
 
-#### Use a 9V battery
-#### Battery must be easily replaceable
-#### Battery life of at least 4 hours
+#### Switch to turn device on/off `Passed`
+
+For this user need I 
+
+#### Rotary knob to linearly modulate the brightness of the light `Passed`
+
+#### Switch to toggle from a continuous to a linking mode `Passed`
+
+#### Two Hz blinking mode with 50% duty cycle `Failed`
+
+#### Use a 9V battery `Passed`
+
+#### Battery must be easily replaceable `Passed`
+
+#### Battery life of at least 4 hours 
 To calculate the run time of my circuit, I am going to divide the amphours of my battery by the current being drawn by the blinking and constant modes at the brightest and darkest levels of the potentiometer. For this test, I will be using a battery amphour of 
 
 | Mode | Current Draw | Calculated Battery Life |
@@ -170,14 +180,17 @@ To calculate the run time of my circuit, I am going to divide the amphours of my
 |Blinking with Darkest Light|0 mA (smaller than meter can detect)||
 |Constant with Brightest Light|25 mA||
 |Constant with Darkest Light|0.1 mA||
-#### Weigh less than half a pound
+
+#### Weigh less than half a pound `Passed`
 The final weight of the box is 171.82 grams which is 0.38 lbs. I was able to make this box both light and sturdy by minimizing the size of the elecrical components. A smaller PCB and smaller switch reduced the size of the box, significantly reducing the weight.
-#### All dimensions must be less than 3 inches
 
-#### Enclosure must be sealed
-#### It must cost less than $20 to replicate the unit
+#### All dimensions must be less than 3 inches `Passed`
 
-#### It must be able to survive a 3 ft drop test
+#### Enclosure must be sealed `Passed`
+
+#### It must cost less than $20 to replicate the unit `Passed`
+
+#### It must be able to survive a 3 ft drop test `TBD`
 This test is still to be performed by Dr. Palmeri.
 
 ## Future Improvements
