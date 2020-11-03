@@ -181,11 +181,17 @@ I would compare both the current and the voltage output of the phototransistor c
 
 #### Switch to toggle from a continuous to a linking mode `Passed`
 
+For this user need I placed a switch at the beginning of the circuit that would direct the current either to the 555 timer or to a direct path to the potentiometer. A video of this working can be seen [here](https://youtu.be/Bkre8Up9MX0).
+
 #### Two Hz blinking mode with 50% duty cycle `Failed`
 
 #### Use a 9V battery `Passed`
 
+The light box uses a 9V battery that is contained within the battery compartment and is sealed with the battery compartment cover. A battery header is used to connect the 9V battery to the circuit.
+
 #### Battery must be easily replaceable `Passed`
+
+For this test I devised the marginal and ideal replacement times of 3 minutes and 2 minutes respectively. I was able to replace the battery in under 90 seconds which is well under the ideal time. The ease in replacement comes from the fact that you only have to remove the two screws of the battery compartment cover to replace the battery.
 
 #### Battery life of at least 4 hours 
 To calculate the run time of my circuit, I am going to divide the amphours of my battery by the current being drawn by the blinking and constant modes at the brightest and darkest levels of the potentiometer. For this test, I will be using a battery amphour of 
