@@ -74,7 +74,7 @@ The mechanical drawing for the light box assembly can be found [here](https://gi
 
 ### Electrical
 
-For designing the electrical components of the lightbox, I used Autodesk EAGLE to first design a schematic that could meet the specified user needs. Then I tested the schematic by running a SPICE simulation and I finally created a printed circuit board that would fit within the bottom piece of my light box as described in the mechanical section above. 
+For designing the electrical components of the lightbox, I used Autodesk EAGLE to first design a schematic that could meet the specified user needs. Then I tested the schematic by running a SPICE simulation and then by breadboarding the circuit. Finally I created a printed circuit board that would fit within the bottom piece of my light box as described in the mechanical section above. 
 
 The final circuit schematic is shown below: 
 
@@ -101,6 +101,10 @@ This circuit produced the following SPICE simulation:
 ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/SPICE.jpg?raw=true)
 
 As seen above, the rising and falling periods of the output are both around 0.25s each, producing a 50% duty cycle and a frequency of 2 Hz.
+
+After running the SPICE simpulation, I wired the circuit on a breadboard so that I could physically test the circuit. When making the breadboard, I found that the frequency of the 555 timer was too slow. Because of this, I ended up changing the value of the capacitor to 2.35 uFarads. Later in this report I will talk about how that was actually the wrong decision and that I should have stuck with a capacitance of 1.2 uFarads as the Frequency of the final light box is too slow and it fails the 2 Hz test. I believe that I got the wrong result while breadboarding the circuit by misreading the capacitor or resistor values. The breadboarded circuit is shown below:
+
+![](https://github.com/cduncan9/cduncan9.github.io/blob/main/breadboard.jpg?raw=true)
 
 Once the circuit was completed I created a single-sided PCB layout in EAGLE. The final layout is shown below:
 
