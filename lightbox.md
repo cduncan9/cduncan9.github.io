@@ -136,11 +136,16 @@ For the holes for the PCB and the connection to the top piece I added threaded h
 | 3D CAD Design | Final Model |
 
 
+![](https://github.com/cduncan9/cduncan9.github.io/blob/main/IMG_9587.jpg?raw=true)
+
+
 | ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/assembly.jpg?raw=true) | ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/assembled%20box%20image.jpg?raw=true) |
 |:------:|:------:|
+| 3D CAD Design | Final Model |
 
 | ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/batt.jpg?raw=true) | ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/bottom-with-battery.jpg?raw=true) |
 |:------:|:------:|
+| 3D CAD Design | Final Model |
 
 ## Testing
 
@@ -154,7 +159,7 @@ For the holes for the PCB and the connection to the top piece I added threaded h
 To calculate the run time of my circuit, I am going to divide the amphours of my battery by the current being drawn by the blinking and constant modes at the brightest and darkest levels of the potentiometer. For this test, I will be using a battery amphour of 
 
 | Mode | Current Draw | Calculated Battery Life |
-|------|------|------|
+|:------:|:------:|:------:|
 |Blinking with Brightest Light| 0.2 mA||
 |Blinking with Darkest Light|0 mA (smaller than meter can detect)||
 |Constant with Brightest Light|25 mA||
