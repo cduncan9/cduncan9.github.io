@@ -72,10 +72,20 @@ The mechanical drawing for the light box assembly can be found [here](https://gi
 
 ### Electrical
 
-![](https://github.com/cduncan9/cduncan9.github.io/blob/main/finalcircuit.jpg?raw=true)
+For designing the electrical components of the lightbox, I used Autodesk EAGLE to first design a schematic that could meet the specified user needs. Then I tested the schematic by running a SPICE simulation and I finally created a printed circuit board that would fit within the bottom piece of my light box as described in the mechanical section above. 
+
+The final circuit schematic is shown below: 
+
+| ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/circuit.jpg?raw=true) |
+|:------:|
+| Final circuit schematic |
 
 
-## Assembly
+
+
+
+
+## Assembly and Modifications
 
 | ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/bottom-piece-image.jpg?raw=true) | ![](https://github.com/cduncan9/cduncan9.github.io/blob/main/assembled%20bottom%20piece.jpg?raw=true) |
 |:---:|:---:|
