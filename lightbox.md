@@ -271,3 +271,5 @@ From this, the parts used in the assembly of my box cost $8.30. I could not find
 This test is still to be performed by Dr. Palmeri.
 
 ## Future Improvements
+
+#### Easy Improvements
