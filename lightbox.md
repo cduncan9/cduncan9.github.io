@@ -278,3 +278,5 @@ There are three quick and easy changes that I discovered during the assembly pro
 2) Remove the test pads from the PCB. This would significantly remove the complexity of the PCB and also decrease the size of the PCB. The test pads also aren't necessary, I was able to debug the circuit without them.
 3) Remove the 1k resistor in the constant LED path. This isn't necessary.
 
+#### Making the continuous and blinking brightness the "same"
+
