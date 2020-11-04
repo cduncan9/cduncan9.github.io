@@ -268,8 +268,13 @@ From this, the parts used in the assembly of my box cost $8.30. I could not find
 
 
 #### It must be able to survive a 3 ft drop test `TBD`
-This test is still to be performed by Dr. Palmeri.
+This test is still to be performed by Dr. Palmeri. However, I designed this box to have 0.3 inch fillets at the edges and a thickness of 0.2 inches so it should be protected in a drop.
 
 ## Future Improvements
 
 #### Easy Improvements
+There are three quick and easy changes that I discovered during the assembly process of my box:
+1) Use a 1.2 uF capacitor for C1 for the 555 timer instead of a 2.2 uF capacitor. This could theoretically give the blinking mode a frequency of 2 Hz instead of 1 Hz.
+2) Remove the test pads from the PCB. This would significantly remove the complexity of the PCB and also decrease the size of the PCB. The test pads also aren't necessary, I was able to debug the circuit without them.
+3) Remove the 1k resistor in the constant LED path. This isn't necessary.
+
