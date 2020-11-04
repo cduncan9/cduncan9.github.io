@@ -202,14 +202,18 @@ The light box uses a 9V battery that is contained within the battery compartment
 For this test I devised the marginal and ideal replacement times of 3 minutes and 2 minutes respectively. I was able to replace the battery in under 90 seconds which is well under the ideal time. The ease in replacement comes from the fact that you only have to remove the two screws of the battery compartment cover to replace the battery.
 
 #### Battery life of at least 4 hours 
-To calculate the run time of my circuit, I am going to divide the amphours of my battery by the current being drawn by the blinking and constant modes at the brightest and darkest levels of the potentiometer. For this test, I will be using a battery amphour of 
+To calculate the run time of my circuit, I am going to divide the amphours of my battery by the current being drawn by LED in the blinking and constant modes at the brightest and darkest levels of the potentiometer. For this test, I will be using a battery amphour of [311 mAh](https://rightbattery.com/279-9v-duracell-alkaline-battery-tests/).
 
-| Mode | Current Draw | Calculated Battery Life |
+| Mode | Current Draw of the LED | Calculated Battery Life |
 |:------:|:------:|:------:|
-|Blinking with Brightest Light| 0.2 mA||
-|Blinking with Darkest Light|0 mA (smaller than meter can detect)||
-|Constant with Brightest Light|25 mA||
-|Constant with Darkest Light|0.1 mA||
+|Blinking with Brightest Light| 0.2 mA|1555|
+|Blinking with Darkest Light|0 mA (smaller than meter can detect)|x|
+|Constant with Brightest Light|25 mA|12.44|
+|Constant with Darkest Light|0.1 mA|3110|
+
+From my calculations I found that the min battery life was 12.44 hours, far more than 4 hours, and therefore passing the ideal battery run time.
+
+Note: I realized after performing the test that I should have measured the current coming out of the battery rather than the current going into the LED for my calculations. There are several 'current sinks' in the 555 timer circuit that arent represented by this calculation such as the voltage regulator, 555 timer, and transistor, which are all sources of current drain. However, I still believe that the run time would be greater than 4 hours if I used the current coming out of the battery.
 
 #### Weigh less than half a pound `Passed`
 
