@@ -246,7 +246,11 @@ For this test, I said that it would be ideal for the replication of the box to b
 |:------:|:------:|:------:|
 |[Mini Toggle Switch](https://www.allelectronics.com/item/mts-4/spdt-on-on-mini-toggle-switch/1.html)| $1.25| 1 |
 |[Potentiometer](https://www.adafruit.com/product/3393)| $1.75| 1 |
-|[555 Timer](https://www.amazon.com/MCIGICM-ne555-Timer-Pulse-Generator/dp/B077BRB6W6/ref=sr_1_3?dchild=1&keywords=555+Timer+IC&qid=1604446628&sr=8-3)||1|
+|[555 Timer](https://www.amazon.com/MCIGICM-ne555-Timer-Pulse-Generator/dp/B077BRB6W6/ref=sr_1_3?dchild=1&keywords=555+Timer+IC&qid=1604446628&sr=8-3)|$0.14|1|
+|[LED](https://www.sparkfun.com/products/9594)|$0.35|1|
+|[Transistor](https://www.amazon.com/CHANZON-100pcs-2N7000-Transistor-Channel/dp/B083TF4K6L/ref=sr_1_1_sspa?_encoding=UTF8&c=ts&dchild=1&keywords=Industrial+Electrical+Transistors&qid=1604449012&s=industrial&sr=1-1-spons&ts_id=306910011&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFFNUJSVTRCRDNENTImZW5jcnlwdGVkSWQ9QTAwNzA3Mzg2WDBFUjY5RlcwOFkmZW5jcnlwdGVkQWRJZD1BMDcwODIzMUhSRE9KMzFHUjYzTiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=)|$0.06|1|
+|[Voltage regulator](https://www.mouser.com/ProductDetail/STMicroelectronics/LM217T?qs=DUDHuK3gDFQoaHjO14gt9A%3D%3D)|$0.77|1|
+||||
 
 #### It must be able to survive a 3 ft drop test `TBD`
 This test is still to be performed by Dr. Palmeri.
