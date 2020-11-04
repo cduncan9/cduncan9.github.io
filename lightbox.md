@@ -256,6 +256,10 @@ For this test, I said that it would be ideal for the replication of the box to b
 |[1 k Resistor](https://www.amazon.com/EDGELEC-Resistor-Tolerance-Multiple-Resistance/dp/B07QG1V4YL/ref=sr_1_1_sspa?dchild=1&keywords=1k+ohm+resistor&qid=1604449976&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUE5TzczSDVYU1JQTFomZW5jcnlwdGVkSWQ9QTA0NTcyNjUzOUEyTzE2OEEyNE1WJmVuY3J5cHRlZEFkSWQ9QTA1NDIxNTgxQkoyTU4xSFVHWjczJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==)|$0.06|3|
 |[10 k Resistor](https://www.amazon.com/Projects-100EP51210K0-10k-Resistors-Pack/dp/B0185FIOTA)|$0.06|1|
 |[301 k Resistor](https://vetco.net/products/301k-ohm-1-4-watt-1-metal-film-resistor)|$0.49|1|
+|[M2 Screws](https://www.mcmaster.com/screws/thread-size~m2/metric-stainless-steel-pan-head-torx-screws/)|$0.05|10|
+|[Heated Screw Inserts](https://www.amazon.com/Products-Insert-Length-Press-Injection/dp/B07HKSP7H1/ref=sr_1_25?dchild=1&qid=1604452005&refinements=p_n_material_browse%3A17548933011&s=industrial&sr=1-25)|$0.08|10|
+
+From this, the parts used in the assembly of my box cost $8.30. I could not find the cost of the single sided PCB or the cost of printing the box, but I can safely assume that it is under $11.70. Therefore it passes this test. 
 
 
 
