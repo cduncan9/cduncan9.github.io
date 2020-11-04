@@ -280,6 +280,12 @@ There are three quick and easy changes that I discovered during the assembly pro
 
 #### Making the continuous and blinking brightness the "same"
 
+Several ways to make the brightness of the LED similar in the continuous and blinking mode:
+
+1) Increase the resistance in the continuous mode. Thiw would introduce a voltage drop that could lower the brightness of the LED.
+2) Introduce [pulse wave modulation](https://www.ti.com/lit/an/snva768/snva768.pdf?ts=1604381361738) in the continuous mode. If you introduce PWM (possibly with another 555 timer) and choose a frequency that is too fast for the human eye to detect, the LED will appear dimmer as it will be on for a smaller amount of time.
+
+To test these two ways of dimming the continuous mode I would build a phototransistor circuit and compare the outputs of the circuit for both the continuous and blinking mode.
 
 
 ## Final thoughts about the light box
