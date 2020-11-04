@@ -250,7 +250,14 @@ For this test, I said that it would be ideal for the replication of the box to b
 |[LED](https://www.sparkfun.com/products/9594)|$0.35|1|
 |[Transistor](https://www.amazon.com/CHANZON-100pcs-2N7000-Transistor-Channel/dp/B083TF4K6L/ref=sr_1_1_sspa?_encoding=UTF8&c=ts&dchild=1&keywords=Industrial+Electrical+Transistors&qid=1604449012&s=industrial&sr=1-1-spons&ts_id=306910011&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUFFNUJSVTRCRDNENTImZW5jcnlwdGVkSWQ9QTAwNzA3Mzg2WDBFUjY5RlcwOFkmZW5jcnlwdGVkQWRJZD1BMDcwODIzMUhSRE9KMzFHUjYzTiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=)|$0.06|1|
 |[Voltage regulator](https://www.mouser.com/ProductDetail/STMicroelectronics/LM217T?qs=DUDHuK3gDFQoaHjO14gt9A%3D%3D)|$0.77|1|
-||||
+|[1 uF Capacitor](https://www.amazon.com/Pcs-MCIGICM-electrolytic-Capacitor-4%C3%977mm/dp/B07VHKWVBQ/ref=sr_1_3?dchild=1&keywords=1uF+Capacitor&qid=1604449522&sr=8-3)|$0.08|2|
+|[0.01 uF Capacitor](https://www.amazon.com/Ceramic-Disk-Capacitor-10nf-0-01uF/dp/B00U5X7YZQ)|$0.18|1|
+|[2.2 uF Capacitor](https://www.mouser.com/ProductDetail/AVX/08055C225KAT2A?qs=F5vmRhUsTTrD4i7cuGJbzw%3D%3D)|$1.61|1|
+|[1 k Resistor](https://www.amazon.com/EDGELEC-Resistor-Tolerance-Multiple-Resistance/dp/B07QG1V4YL/ref=sr_1_1_sspa?dchild=1&keywords=1k+ohm+resistor&qid=1604449976&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUE5TzczSDVYU1JQTFomZW5jcnlwdGVkSWQ9QTA0NTcyNjUzOUEyTzE2OEEyNE1WJmVuY3J5cHRlZEFkSWQ9QTA1NDIxNTgxQkoyTU4xSFVHWjczJndpZGdldE5hbWU9c3BfYXRmJmFjdGlvbj1jbGlja1JlZGlyZWN0JmRvTm90TG9nQ2xpY2s9dHJ1ZQ==)|$0.06|3|
+|[10 k Resistor](https://www.amazon.com/Projects-100EP51210K0-10k-Resistors-Pack/dp/B0185FIOTA)|$0.06|1|
+|[301 k Resistor](https://vetco.net/products/301k-ohm-1-4-watt-1-metal-film-resistor)|$0.49|1|
+
+
 
 #### It must be able to survive a 3 ft drop test `TBD`
 This test is still to be performed by Dr. Palmeri.
