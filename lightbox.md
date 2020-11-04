@@ -280,3 +280,6 @@ There are three quick and easy changes that I discovered during the assembly pro
 
 #### Making the continuous and blinking brightness the "same"
 
+
+
+## Final thoughts about the light box
