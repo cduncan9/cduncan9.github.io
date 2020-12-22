@@ -1,6 +1,12 @@
 # About Me
 <img src="https://github.com/cduncan9/cduncan9.github.io/blob/main/DSC_0366.jpg?raw=true" width=400>
 
+**Relevant Coursework:** Data Structures and Algorithms, Fundamentals of Electrical and Computer Engineering, Computer Architecture, Medical Software Design, Intro to Database Systems, Machine Learning and Imaging, Signals and Systems, Modern Diagnostic Imaging Systems, Intro to Medical Instrumentation, Medical Device Design I
+
+**Programming Languages:** C/C++, Java, MATLAB, Python, QML, SQL, HTML, CSS
+
+**Technologies:** Arduino, EAGLE, Git, MongoDB, MariaDB, Onshape, Travis CI, Flask, Tkinter, TensorFlow
+
 # Projects
 
 ## Light Box
@@ -20,3 +26,5 @@ This light box device was built as a project for Medical Device Design I at Duke
 ## Mini-Amazon 
 
 ## Using Deep Learning to Improve Breast Cancer Diagnosis
+
+<img src="https://github.com/cduncan9/cduncan9.github.io/blob/main/Sample_data_images.jpg?raw=true" width=600>
