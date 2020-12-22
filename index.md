@@ -25,6 +25,6 @@ This light box device was built as a project for Medical Device Design I at Duke
 
 ## Mini-Amazon 
 
-## Using Deep Learning to Improve Breast Cancer Diagnosis
+## Deep Learning for Pneumonia Classification
 
 <img src="https://github.com/cduncan9/cduncan9.github.io/blob/main/Sample_data_images.jpg?raw=true" width=600>
