@@ -1,5 +1,7 @@
 # About Me
 
+# Projects
+
 ## Light Box
 
 | <img src="https://github.com/cduncan9/cduncan9.github.io/blob/main/finalproduct.jpg?raw=true" width=400> |
